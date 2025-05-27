@@ -1,0 +1,41 @@
+﻿---
+ID: "10b7b30f-c568-410e-86fe-41e63b443e0d"
+Parent: "aeec3710-106a-4e11-8e4e-f5c20b7dc124"
+Template: "aeec3710-106a-4e11-8e4e-f5c20b7dc124"
+Path: /sitecore/templates/Feature/Catalog/Header/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{676BFB66-4521-4494-899E-84B54D0F3C84}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a2cc59ac-3b0f-4a8a-ab60-f42e9cbe2d14"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250509T174052Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "affc833d-1f1a-4400-94d5-e896dd9e7b4f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250515T203931Z

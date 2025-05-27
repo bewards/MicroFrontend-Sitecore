@@ -1,0 +1,31 @@
+﻿---
+ID: "ac8309d3-2b5e-49f9-b44f-354face3dc7a"
+Parent: "1ceaaed7-adc5-48c1-8afd-e2d406a202b2"
+Template: "1ceaaed7-adc5-48c1-8afd-e2d406a202b2"
+Path: /sitecore/templates/Project/MicroFrontends/Headless Tenant/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250506T201643Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f011989f-284c-41c0-8c56-f56c1b8612d1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250506T201643Z

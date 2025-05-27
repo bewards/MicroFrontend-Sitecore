@@ -1,0 +1,30 @@
+[
+  {
+    "pathMatcher": "7703-bravo-16-54-silk-stream-viewers",
+    "name": "Silk Stream Viewers",
+    "model": "BRAVO-16-54",
+    "brand": "Bravo",
+    "description": "Silk Stream Viewers are designed to provide a seamless viewing experience for all your favorite shows and movies. With a sleek design and advanced technology, these viewers are perfect for any home theater setup.",
+    "image": "https://example.com/images/silk_stream_viewers.jpg",
+    "priceLineThrough": "169.99",
+    "price": "94.99",
+    "detailAttributes": [
+      {
+        "name": "Lens Height",
+        "value": "36mm"
+      },
+      {
+        "name": "Lens Width",
+        "value": "54mm"
+      },
+      {
+        "name": "Bridge Width",
+        "value": "18mm"
+      },
+      {
+        "name": "Temple Length",
+        "value": "145mm"
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+﻿---
+ID: "0b5b0ee2-ea70-4ed0-8659-7d1245b91947"
+Parent: "0dc91bc9-5c06-441e-a1e9-180a98bc663f"
+Template: "676bfb66-4521-4494-899e-84b54d0f3c84"
+Path: /sitecore/content/MicroFrontends/ProductSite/Data/Headers/Default Header/eyeglasses
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13629ecb-4d03-411e-bdb7-97a5727d0618"
+      Hint: link
+      Value: |
+        <link text="Eyeglasses" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{91DD4413-0459-4D11-95EC-5D2813CAE4DA}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250509T174926Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b2dd214d-1253-492a-8a96-231895b6ce51"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250509T175943Z

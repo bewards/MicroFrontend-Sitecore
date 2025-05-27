@@ -1,0 +1,38 @@
+﻿---
+ID: "d8fc6b3c-2c4b-4a0f-b905-2244899848cd"
+Parent: "1110ae78-acc9-40ae-8152-05831390a9cd"
+Template: "46025a43-2376-4f2a-a1ca-451e8ef78568"
+Path: /sitecore/content/MicroFrontends/ProductSite/Home/product/*
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{0EBF0EC0-7605-437F-B0AC-09CBDC2DBA60}" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "43eb0eb3-559c-434b-a6b3-fb3e6f13ff81"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: PDP Page (*)
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250516T173159Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: *
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "144491f2-2af9-42c5-8140-ef32bfcfa630"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250516T203021Z

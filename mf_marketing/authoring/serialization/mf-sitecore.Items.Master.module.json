@@ -1,0 +1,43 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "mf-sitecore.Items.Master",
+  "items": {
+    "includes": [
+      {
+        "name": "DefaultRenderingHost",
+        "path": "/sitecore/system/Settings/Services/Rendering Hosts/Default",
+        "scope": "singleItem"
+      },
+      {
+        "name": "M.Feature.Catalog.Templates",
+        "path": "/sitecore/templates/Feature/Catalog",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "itemAndDescendants"
+      },
+      {
+        "name": "M.Project.Catalog.Templates",
+        "path": "/sitecore/templates/Project/Catalog",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "itemAndDescendants"
+      },
+      {
+        "name": "M.Project.MicroFrontends.Templates",
+        "path": "/sitecore/templates/Project/MicroFrontends",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "itemAndDescendants"
+      },
+      {
+        "name": "M.Feature.Catalog.Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/Catalog",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "itemAndDescendants"
+      },
+      {
+        "name": "M.Project.MicroFrontends.Renderings",
+        "path": "/sitecore/layout/Renderings/Project/MicroFrontends",
+        "allowedPushOperations": "createUpdateAndDelete",
+        "scope": "itemAndDescendants"
+      }
+    ]
+  }
+}

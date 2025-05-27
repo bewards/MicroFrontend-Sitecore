@@ -1,0 +1,66 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "mf-sitecore.Items.Content",
+  "references": ["mf-sitecore.Items.Master"],
+  "items": {
+    "includes": [
+      {
+        "name": "C.MicroFrontends.GlobalData",
+        "path": "/sitecore/content/Global Data",
+        "allowedPushOperations": "CreateAndUpdate",
+        "scope": "ItemAndDescendants"
+      },
+      {
+        "name": "C.MicroFrontends.TenantRoot",
+        "path": "/sitecore/content/MicroFrontends",
+        "allowedPushOperations": "CreateAndUpdate",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "C.MicroFrontends.ProductSite",
+        "path": "/sitecore/content/MicroFrontends/ProductSite",
+        "rules": [
+          {
+            "path": "/Home",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Media",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Data",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateAndUpdate"
+          },
+          {
+            "path": "/Dictionary",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Presentation",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateUpdateAndDelete"
+          },
+          {
+            "path": "/Settings/Site Grouping",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Settings",
+            "scope": "ItemAndChildren",
+            "allowedPushOperations": "CreateAndUpdate"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      }
+    ]
+  }
+}

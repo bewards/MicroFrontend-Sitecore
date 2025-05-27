@@ -1,0 +1,16 @@
+declare module 'mf_catalog/Banner';
+declare module 'mf_catalog/Counter';
+declare module 'mf_catalog/FavoritesDropdown';
+declare module 'mf_catalog/FeaturedProductsByCategoryCTA';
+declare module 'mf_catalog/ProductDetail';
+
+declare module 'mf_catalog/PDPService' {
+  class PDPService {
+    constructor(pathMatcher: string);
+    getPDP(): Promise<TempProduct | { errorMessage: string }>;
+  }
+}
+
+interface TempProduct {
+  title: string;
+}

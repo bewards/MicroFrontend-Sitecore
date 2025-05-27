@@ -1,0 +1,42 @@
+﻿---
+ID: "362f7180-9bec-432f-8c21-13d7f4059e49"
+Parent: "91dd4413-0459-4d11-95ec-5d2813cae4da"
+Template: "4f485fe4-9579-420f-89c0-5506f0d27415"
+Path: /sitecore/content/MicroFrontends/ProductSite/Home/Catalog
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{BF88E9AF-C989-495D-8D19-1E19D1189937}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250513T201133Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Catalog
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jlong@rightpoint.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jlong@rightpoint.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "09f1cd16-a54f-498d-aa8c-dd6335a205ee"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jlong@rightpoint.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250513T201133Z
+    - ID: "f463e09c-e50a-4b8f-b037-05f8a6f9bf4d"
+      Hint: Title
+      Value: Catalog

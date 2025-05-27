@@ -1,0 +1,24 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "mf-sitecore.Items.Content.Local",
+  "tags": ["local"],
+  "items": {
+    "includes": [
+      {
+        "name": "C.MicroFrontends.ProductSite.Local.Pages",
+        "path": "/sitecore/content/MicroFrontends/ProductSite/Home",
+        "scope": "DescendantsOnly"
+      },
+      {
+        "name": "C.MicroFrontends.ProductSite.Local.Media",
+        "path": "/sitecore/content/MicroFrontends/ProductSite/Media",
+        "scope": "DescendantsOnly"
+      },
+      {
+        "name": "C.MicroFrontends.ProductSite.Local.Data",
+        "path": "/sitecore/content/MicroFrontends/ProductSite/Data",
+        "scope": "DescendantsOnly"
+      }
+    ]
+  }
+}

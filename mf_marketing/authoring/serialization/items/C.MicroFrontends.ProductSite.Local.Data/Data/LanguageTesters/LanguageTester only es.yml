@@ -1,0 +1,34 @@
+﻿---
+ID: "b6a4ab7a-050b-4633-836d-d7f4c9812f7a"
+Parent: "e350df04-1fd6-4102-b587-dae21058a2c3"
+Template: "a29f5591-6473-4f4d-901a-25b3ef753b8d"
+Path: /sitecore/content/MicroFrontends/ProductSite/Data/LanguageTesters/LanguageTester only es
+Languages:
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250515T200024Z
+    - ID: "3826a016-6480-40b6-a919-9d21374d19c8"
+      Hint: PromoText
+      Value: spanishTester
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "47d49c17-f64f-4758-a1f0-00132aee25f4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250515T200032Z

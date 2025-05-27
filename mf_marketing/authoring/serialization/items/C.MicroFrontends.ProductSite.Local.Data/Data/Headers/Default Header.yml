@@ -1,0 +1,52 @@
+﻿---
+ID: "0dc91bc9-5c06-441e-a1e9-180a98bc663f"
+Parent: "fadc1579-3890-4ea7-980f-1899fca729da"
+Template: "aeec3710-106a-4e11-8e4e-f5c20b7dc124"
+Path: /sitecore/content/MicroFrontends/ProductSite/Data/Headers/Default Header
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250509T174440Z
+    - ID: "8a288996-e984-4bf2-9735-7c89ff0daf59"
+      Hint: logoLink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{91DD4413-0459-4D11-95EC-5D2813CAE4DA}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec7057a5-dcd3-4a2c-b6d6-93e7156f8392"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250509T174859Z
+    - ID: "e42e1f55-67d7-4436-8a80-140d4818878d"
+      Hint: logo
+      Value: |
+        <image mediaid="{82744C75-FC5F-447C-BE15-E91802D79CB6}" />
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250515T204920Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5d8cf445-e4a8-4304-b62f-a9ad178f7b27"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250515T210030Z
+    - ID: "e42e1f55-67d7-4436-8a80-140d4818878d"
+      Hint: logo
+      Value: |
+        <image mediaid="{82744C75-FC5F-447C-BE15-E91802D79CB6}" alt="test" height="" width="" hspace="" vspace="" />

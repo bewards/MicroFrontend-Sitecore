@@ -1,0 +1,27 @@
+﻿---
+ID: "e9641199-ec9c-4d07-af6d-691029d1280b"
+Parent: "67a45900-5502-4585-ad76-56ddc8326d1a"
+Template: "67a45900-5502-4585-ad76-56ddc8326d1a"
+Path: /sitecore/templates/Feature/Catalog/Rendering Parameters/Product Detail Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cfe1c64f-56c1-4ccc-b441-d46f12ac6e0a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\bsewards@rightpoint.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250516T194253Z
