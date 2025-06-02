@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { GetServerSideComponentProps, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
 import { PDPService } from 'mf_catalog/PDPService';
+import PDPLoader from 'components/Loaders/PDPLoader';
 
 type ProductDetail = {
   propFromComponentServerSideProps: string;
@@ -18,11 +19,13 @@ const ProductDetail: React.FC<ProductDetail> = (props) => {
   }
   return (
     <>
-      <MF_ProductDetail {...props}>
-        <section className="mt-2">
-          <p>Product Detail Children content (from Sitecore)</p>
-        </section>
-      </MF_ProductDetail>
+      <Suspense fallback={<PDPLoader />}>
+        <MF_ProductDetail {...props}>
+          <section className="mt-2">
+            <p>Product Detail Children content (from Sitecore)</p>
+          </section>
+        </MF_ProductDetail>
+      </Suspense>
     </>
   );
 };
