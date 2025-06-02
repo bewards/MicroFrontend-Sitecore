@@ -52,15 +52,17 @@ const FeaturedProductsByCategoryCTA: React.FC<FeaturedProductsByCategoryProps> =
           saveIcon={<Image field={datasource.saveIcon?.jsonValue} className="save-icon" />}
           plusIcon={<Image field={datasource.plusIcon?.jsonValue} className="plus-icon" />}
         >
-          <section className="mt-2">
-            <i>
-              This Sitecore component acts as a wrapper around the mf_catalog component, passing
-              through Sitecore Datasource content to the federated module, such as the save icon as
-              a ReactNode for editability.
-            </i>
+          <section className="p-4 mt-2 outline-2 outline-offset-[-4px] outline-blue-500">
+            <p>
+              This content comes from the Sitecore wrapper component that renders the Remote{' '}
+              <code>mf_catalog</code> component, passing through Sitecore Datasource content to the
+              federated module, such as the save icon as a ReactNode for editability.
+            </p>
             {datasource.testTitle?.jsonValue && (
               <p className="test-title">
-                <strong>Datasource field language test:</strong>
+                <span className="text-blue-500 font-semibold">
+                  Datasource field <code>&quot;testTitle&quot;</code> value by language:{' '}
+                </span>
                 <Text field={datasource.testTitle.jsonValue} />
               </p>
             )}
