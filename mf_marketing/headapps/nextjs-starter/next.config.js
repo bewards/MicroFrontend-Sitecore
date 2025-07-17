@@ -88,11 +88,11 @@ const nextConfig = {
     const { isServer } = options;
     config.infrastructureLogging = { level: 'log' }; // enables verbose webpack logging
     config.plugins.push(new NextFederationPlugin(MF_OPTIONS(isServer)));
-    config.plugins.push(
-      new FederatedTypesPlugin({
-        federationConfig: MF_OPTIONS(isServer),
-      })
-    );
+    // config.plugins.push(
+    //   new FederatedTypesPlugin({
+    //     federationConfig: MF_OPTIONS(isServer),
+    //   })
+    // );
     // config.plugins.push({ test: /\.(js|jsx)?$/, exclude: /node_modules/, use: ['babel-loader'] });
 
     return config;

@@ -10,6 +10,8 @@ type FeaturedProductByCategoryCTAProps = PropsWithChildren & {
   // passed in from Sitecore wrapper component for editability
   saveIcon?: React.ReactNode;
   plusIcon?: React.ReactNode;
+
+  optionalHeader?: string;
 };
 
 type ProductCategory = {
@@ -125,6 +127,11 @@ const FeaturedProductsByCategoryCTA: React.FC<FeaturedProductByCategoryCTAProps>
   };
   return (
     <div className="container mx-auto py-4 mt-4 outline-4 outline-offset-[-4px] outline-yellow-500">
+      <div className="productCTA__header text-center mb-4">
+        <h2 className="text-2xl font-bold">
+          {props.optionalHeader || 'Featured Products By Category CTA'}
+        </h2>
+      </div>
       <div className="productCTA__selection">
         <div className="container mx-auto py-4">
           <div className="productCTA__selection">

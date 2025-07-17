@@ -11,7 +11,7 @@ const remotes = (isServer, isTypes) => {
 const MF_OPTIONS = (isServer, isTypes) => {
   return {
     name: 'mf_catalog',
-    // remotes: remotes(isServer, isTypes),
+    remotes: remotes(isServer, isTypes),
     filename: 'static/chunks/remoteEntry.js',
     exposes: {
       './Banner': './src/components/Banner',

@@ -6,6 +6,9 @@ const MF_OPTIONS = (isServer) => {
         process.env.CATALOG_APP_URL || 'http://localhost:3001'
       }/_next/static/${isServer ? 'ssr' : 'chunks'}/remoteEntry.js`,
     },
+    exposes: {
+      './Layout': './src/pages/[[...path]].tsx',
+    },
     filename: 'static/chunks/remoteEntry.js',
     dts: false,
     shared: {

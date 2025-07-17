@@ -1,5 +1,5 @@
-import FeaturedProductsByCategoryCTA from '@/components/FeaturedProductsByCategoryCTA';
-import ProductListing from '@/components/ProductListing';
+import Banner from '@/components/Banner';
+import Counter from '@/components/Counter';
 
 // Import Sitecore dynamic route "[[...path]].tsx" to use Sitecore's getServerSideProps and Layout!
 import SitecoreLayout, {
@@ -12,24 +12,16 @@ function Page(props: any) {
     <>
       <SitecoreLayout {...props}>
         
-        <FeaturedProductsByCategoryCTA
-          ctaCategories={[
-            { categoryId: '1', categoryLabel: 'Eyeglasses' },
-            { categoryId: '2', categoryLabel: 'Sunglasses' },
-            { categoryId: '3', categoryLabel: 'Contacts' },
-          ]}
-          saveIcon="/catalog/icons/heart-svgrepo-com.svg"
-          plusIcon="/catalog/icons/plus-svgrepo-com.svg"
-          optionalHeader='Component Running in Catalog App!'
-        />
+        <Banner />
 
-        <ProductListing />
+        <Counter />
 
       </SitecoreLayout>
     </>
   );
 }
 
+//? TODO: This route has to exist in Sitecore as a page, otherwise the sitecoreGetServerSideProps will return us with not found flag!
 const getServerSideProps = async (context: any) => {
   // console.log("getServerSideProps context:", context);
   // console.log("context.resolvedUrl", context.resolvedUrl);

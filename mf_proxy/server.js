@@ -11,7 +11,7 @@ app.use(
     // pathRewrite: {
     //   '^/home': '/', // rewrite path
     // },
-    pathFilter: (path) => !path.startsWith('/catalog'),
+    pathFilter: (path) => !path.startsWith('/catalog') && !path.startsWith('/playground'),
   })
 );
 
@@ -20,7 +20,7 @@ app.use(
   createProxyMiddleware({
     target: 'http://localhost:3001',
     changeOrigin: true,
-    pathFilter: (path) => path.startsWith('/catalog'),
+    pathFilter: (path) => path.startsWith('/catalog') || path.startsWith('/playground'),
     // pathRewrite: {
     //   '^/catalog': '/', // rewrite path
     // },

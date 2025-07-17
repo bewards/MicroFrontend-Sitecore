@@ -28,20 +28,22 @@ const nextConfig = {
     }
     // const mfOptions = MF_OPTIONS(isServer);
     config.plugins.push(new NextFederationPlugin(MF_OPTIONS(isServer)));
-    config.plugins.push(
-      new FederatedTypesPlugin({
-        federationConfig: MF_OPTIONS(isServer, false),
-        typeFetchOptions: {
-          downloadRemoteTypesTimeout: 10000,
-          maxRetryAttempts: 10,
-          retryDelay: 2000,
-        },
-        // typeServeOptions: {
-        //   port: 3003,
-        //   host: 'localhost',
-        // },
-      })
-    );
+
+    //! Types plugin is disabled when running in proxy route mode due to circular dependency issues
+    // config.plugins.push(
+    //   new FederatedTypesPlugin({
+    //     federationConfig: MF_OPTIONS(isServer, false),
+    //     typeFetchOptions: {
+    //       downloadRemoteTypesTimeout: 10000,
+    //       maxRetryAttempts: 10,
+    //       retryDelay: 2000,
+    //     },
+    //     // typeServeOptions: {
+    //     //   port: 3003,
+    //     //   host: 'localhost',
+    //     // },
+    //   })
+    // );
     // config.plugins.push({ test: /\.(js|jsx)?$/, exclude: /node_modules/, use: ['babel-loader'] });
 
     return config;
