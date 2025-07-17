@@ -43,7 +43,9 @@ const Layout = ({
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
-      <div className={`${mainClassPageEditing} outline-4 outline-offset-[-4px] outline-blue-500`}>
+      <div
+        className={`${mainClassPageEditing} outline-4 outline-offset-[-4px] outline-red-500 pb-4`}
+      >
         <header>
           <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
         </header>

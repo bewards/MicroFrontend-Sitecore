@@ -52,7 +52,7 @@ const FeaturedProductsByCategoryCTA: React.FC<FeaturedProductsByCategoryProps> =
           saveIcon={<Image field={datasource.saveIcon?.jsonValue} className="save-icon" />}
           plusIcon={<Image field={datasource.plusIcon?.jsonValue} className="plus-icon" />}
         >
-          <section className="p-4 mt-2 outline-2 outline-offset-[-4px] outline-blue-500">
+          <section className="p-4 mt-2 outline-2 outline-offset-[-4px] outline-red-500">
             <p>
               This content comes from the Sitecore wrapper component that renders the Remote{' '}
               <code>mf_catalog</code> component, passing through Sitecore Datasource content to the

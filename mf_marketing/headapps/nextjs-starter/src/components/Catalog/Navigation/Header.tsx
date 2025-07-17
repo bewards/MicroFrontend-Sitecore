@@ -35,7 +35,7 @@ const Header = (props: HeaderProps): JSX.Element => {
   } = props;
 
   return (
-    <header className={cx('header', 'outline-4 outline-offset-[-4px] outline-blue-500')}>
+    <header className={cx('header', 'outline-4 outline-offset-[-4px] outline-red-500')}>
       <div className="container flex items-center justify-between">
         <div className={cx('header__logo')}>
           <Link

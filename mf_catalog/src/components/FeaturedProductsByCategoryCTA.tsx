@@ -124,7 +124,7 @@ const FeaturedProductsByCategoryCTA: React.FC<FeaturedProductByCategoryCTAProps>
     setSelectedCategory(category);
   };
   return (
-    <div className="container mx-auto py-4 outline-4 outline-offset-[-4px] outline-red-500">
+    <div className="container mx-auto py-4 mt-4 outline-4 outline-offset-[-4px] outline-yellow-500">
       <div className="productCTA__selection">
         <div className="container mx-auto py-4">
           <div className="productCTA__selection">

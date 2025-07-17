@@ -30,7 +30,7 @@ const ProductListing: React.FC = () => {
   };
 
   return (
-    <div className="container py-4 outline-4 outline-offset-[-4px] outline-red-500">
+    <div className="container py-4 outline-4 outline-offset-[-4px] outline-yellow-500">
       <div className="flex items-center justify-between mb-4">
         <h1 className="text-2xl font-bold mb-4">Product Listing</h1>
         <div className="flex gap-4">

@@ -13,12 +13,12 @@ const FavoritesDropdown: React.FC = () => {
     <div className="relative">
       <button
         onClick={toggleDropdown}
-        className="relative px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 outline-4 outline-offset-[-4px] outline-red-500"
+        className="relative px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 outline-4 outline-offset-[-4px] outline-yellow-500"
       >
         Favorites ({favorites.length})
       </button>
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-64 bg-white border border-gray-300 rounded shadow-lg">
+        <div className="absolute right-0 mt-2 w-64 bg-white border border-gray-300 rounded shadow-lg z-100">
           {favorites.length > 0 ? (
             <ul className="p-2">
               {favorites.map((product) => (

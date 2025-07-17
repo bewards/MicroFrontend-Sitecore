@@ -13,7 +13,7 @@ const Counter: React.FC<CounterProps> = ({ initialCount }) => {
   };
 
   return (
-    <section className="container mx-auto my-4 outline-3 outline-red-500">
+    <section className="container mx-auto my-4 outline-3 outline-yellow-500">
       <h2>Counter</h2>
       <button
         onClick={handleClick}

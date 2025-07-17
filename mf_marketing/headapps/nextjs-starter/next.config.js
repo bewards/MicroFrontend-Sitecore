@@ -99,6 +99,14 @@ const nextConfig = {
   },
 };
 
+// place after nextConfig initial settings object
+if (process.env.NODE_ENV === 'development') {
+  nextConfig.images.remotePatterns.push({
+    protocol: 'https',
+    hostname: 'i.imgur.com',
+  });
+}
+
 module.exports = () => {
   // Run the base config through any configured plugins
   return Object.values(plugins).reduce((acc, plugin) => plugin(acc), nextConfig);

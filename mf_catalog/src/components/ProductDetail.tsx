@@ -9,11 +9,11 @@ const ProductDetail: FC<ProductDetailProps> = (props) => {
   const { t } = useI18n() || { t: (key: string) => key };
 
   return (
-    <div className="container mx-auto p-4 outline-4 outline-offset-[-4px] outline-red-500">
+    <div className="container mx-auto p-4 outline-4 outline-offset-[-4px] outline-yellow-500">
       <div className="flex flex-col md:flex-row gap-4">
         {/* 60% Column */}
         <div className="md:w-3/5">
-          <img src="https://placehold.co/700x400" alt="Product" className="w-full mb-4" />
+          <img src="https://i.imgur.com/13B3uJM.png" alt="Sitecore Streamer Sunglasses" className="mx-auto w-auto h-[500px]" />
           <h2 className="text-xl font-semibold mb-2">
             {t('ProductDetail.DescriptionLabel') || 'Description'}
           </h2>
@@ -32,7 +32,7 @@ const ProductDetail: FC<ProductDetailProps> = (props) => {
 
         {/* 40% Column */}
         <div className="md:w-2/5">
-          <h1 className="text-2xl font-bold mb-4">Silk Stream Viewers</h1>
+          <h1 className="text-2xl font-bold mb-4">Sitecore Silk Stream Viewers</h1>
           <div className="flex items-center gap-2 mb-4">
             <span className="text-gray-500 line-through">$169.99</span>
             <span className="text-red-500 font-bold">{price || 'Price not available'}</span>
