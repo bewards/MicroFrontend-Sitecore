@@ -26,6 +26,7 @@ const featuredProductsByCategory: Product[] = [
     priceLineThrough: '$100.00',
     price: '$80.00',
     image: '/catalog/product-5.webp',
+    detailPageUrl: '/product/7703-bravo-16-54-silk-stream-viewers',
   },
   {
     id: 102,
@@ -197,7 +198,13 @@ const FeaturedProductsByCategoryCTA: React.FC<FeaturedProductByCategoryCTAProps>
                   </div>
                   <div className="flex justify-between items-center">
                     <div>
-                      <h3 className="text-lg font-semibold">{product.name}</h3>
+                      {product.detailPageUrl ? (
+                        <a href={product.detailPageUrl} className="text-blue-500 hover:underline">
+                          <h3 className="text-lg font-semibold">{product.name}</h3>
+                        </a>
+                      ) : (
+                        <h3 className="text-lg font-semibold">{product.name}</h3>
+                      )}
                       <p className="text-gray-500">{product.brand}</p>
                     </div>
                     <div className="text-right">

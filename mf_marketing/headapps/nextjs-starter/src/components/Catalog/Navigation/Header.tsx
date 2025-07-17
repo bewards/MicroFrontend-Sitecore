@@ -6,7 +6,7 @@ import 'tailwindcss/index.css';
 // CSS module styles
 import classnames from 'classnames/bind';
 import styles from './Header.module.scss';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 import { useRouter } from 'next/router';
 const cx = classnames.bind(styles);
@@ -20,7 +20,11 @@ const Header = (props: HeaderProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
   const currentLang = sitecoreContext.language || router.locale;
   const labelSelectStore = (t && t('CatalogSelectStore')) || 'Select Store';
-  console.log('Current language:', currentLang);
+
+  useEffect(() => {
+    // Log the current language to the console
+    console.log('Current language:', currentLang);
+  }, [currentLang]);
 
   const {
     fields: {

@@ -11,6 +11,7 @@ export type Product = {
     name: string;
     value: string;
   }[];
+  detailPageUrl?: string;
 
   // Sitecore mappings
   categoryId?: string;
